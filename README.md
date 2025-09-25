@@ -38,7 +38,7 @@ set -euo pipefail
 
 ############# UZUPEŁNIJ TUTAJ (wstaw swoje wartości) #############
 PAN_HOST="192.168.10.44"      # adres Panorama (hostname lub IP)
-API_KEY="API-KEY # API key wygenerowany w Panorama
+API_KEY="API-KEY" # API key wygenerowany w Panorama
 DEVICE_SERIAL="0011223344556677"             # numer seryjny urządzenia docelowego
 INSECURE=true                         # true -> curl -k (pomija weryfikację certyfikatu)
 TIMEOUT=30                             # timeout curl w sekundach
